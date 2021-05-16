@@ -73,17 +73,12 @@ class ImcInput extends React.Component {
               </div>
               <button className="btn btn-primary">Calcular</button>
             </form>
-            <label>
-              Resultado:
-              <input
-                className="form-control"
-                value={this.props.imcResult}
-                onChange={this.handleResultChange}
-              />
-            </label>
+            <div className="center">
+              <h5>Resultado: {this.props.imcResult}</h5>
+            </div>
           </div>
           <div className="col-md-8">
-            <table className="table">
+            <table className="table striped">
               <thead>
                 <tr>
                   <th scope="col">Tabela de Composição corporal</th>
