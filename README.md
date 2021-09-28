@@ -1,2 +1,2 @@
-# imc-react
+# imc-javascritp
  
